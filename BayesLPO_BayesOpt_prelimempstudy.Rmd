@@ -1,0 +1,211 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+## This notebook contains codes for running 3 months empirical studies of comparing grid-search CV and Bayesian Optimization (BO).
+## Both are used to tune LPO with Sample, Bayes-Stein, Bayes Asset Pricing (FF3) and Bayes Averaging estimate. 
+
+## Bayes Opt being considered here use EIVar as acquisition function and with time series adjustment. 
+## For other variations of BO, need to modify 'LPO_BO_NoisyOptimizer.R' and 'LPO_BO_TestEvaluation.R'
+```
+
+
+```{r}
+# Import dependencies 
+source('LPO_SampleEstimation.R')
+source('LPO_BayesEstimation.R')
+source('LPO_CV.R')
+source('LPO_CV_TestEvaluation.R')
+source('LPO_BO_NoisyOptimizer.R')
+source('LPO_BO_TestEvaluation.R')
+source('LPO_TrueLambdaBacktest.R')
+```
+
+
+```{r}
+# S&P500 Dataset 2012-2016
+df_snp500 = read.csv("sp500-1216.csv", stringsAsFactors=FALSE)
+df_snp500 = df_snp500[ , colSums(is.na(df_snp500)) == 0] #drop columns with NA
+head(df_snp500)
+```
+
+
+```{r}
+# Pick subset of data for evaluating performance
+# Use test period starting from 1 June 2016. Consider 3 months test period -> (n.test=60 returns)
+# Use length of rolling window for estimation = 252 days -> (n.train= 251 returns)
+df_snp500_eval = df_snp500[df_snp500['Date']>='2015-06-01' & df_snp500['Date']<='2016-12-31' ,]
+head(df_snp500_eval)
+
+# For Bayes Averaging (No pre-determined rolling window size for estimation. Add additional burn-in period of 20 days before test period starting from 1 June 2016)
+df_snp500_eval_ave = df_snp500[df_snp500['Date']>='2016-05-01' & df_snp500['Date']<'2016-12-31' ,]
+```
+
+
+```{r}
+# Get return from s, a vector of asset prices [nx1]
+calcReturn <- function(s)
+{
+  return (diff(s)/s[-length(s)])
+}
+
+# Get returns from S, a matrix of asset prices[nxp]
+getReturnsMatrix <- function(S)
+{
+  returnsmat = apply(S, 2, calcReturn)
+  return (returnsmat)
+}
+
+smat = as.matrix(df_snp500_eval[,-1])
+rmat = getReturnsMatrix(smat)
+# For Bayes Averaging
+rmatave = getReturnsMatrix(as.matrix(df_snp500_eval_ave[,-1]))
+```
+
+
+```{r}
+# Read Fama-French 3 factor model data 
+df_ff3 = read.csv("FF3-0317.csv", stringsAsFactors=FALSE)
+df_ff3$Date = as.Date(df_ff3$Date, format = "%m/%d/%Y")
+df_ff3$Mkt.RF = df_ff3$Mkt.RF / 100
+df_ff3$SMB = df_ff3$SMB / 100
+df_ff3$HML = df_ff3$HML / 100
+head(df_ff3)
+```
+
+
+```{r}
+# Pick subset of data for evaluating performance
+df_ff3_eval = df_ff3[df_ff3['Date']>='2015-06-01' & df_ff3['Date']<='2016-12-31' ,]
+df_ff3_eval = df_ff3_eval[-1,]
+head(df_ff3_eval)
+
+ff3mat = as.matrix(df_ff3_eval[,-c(1,5)])
+```
+
+
+
+#####################
+# See LPO_TrueLambdaBacktest.R
+# Find true optimal lambda by incorporating future asset prices.
+# For LPO with Sample, Bayes-Stein, Bayes Asset Pricing and Bayes Averaging estimate.
+
+# True lambda LPO Sample
+```{r}
+truelambda.l1fast = TrueOptimalLambda.lposample(r=rmat,n.train=251,n.test=60,
+                                                delta=rep(1,ncol(rmat)), step=1/252,
+                                                normalized = TRUE, nlambda=30)
+```
+
+# True lambda LPO Bayes-Stein
+```{r}
+truelambda.l1fastbs = TrueOptimalLambda.lpobs(r=rmat, n.train=251,n.test=60,
+                                              delta=rep(1,ncol(rmat)), step=1/252,
+                                              shrinkage= TRUE, normalized = TRUE, nlambda=30)
+```
+
+# True lambda LPO Bayes asset pricing
+```{r}
+truelambda.l1fastff3 = TrueOptimalLambda.lpoassetp(r=rmat, f=ff3mat,sigma_alpha=0.01,
+                                                   nu=500,n.train=251,
+                                                   n.test=60,
+                                                   delta=rep(1,ncol(rmat)),
+                                                   step=1/252,normalized=TRUE, nlambda=30)
+```
+
+# True lambda LPO Bayes averaging
+```{r}
+truelambda.l1fastbayesave = TrueOptimalLambda.lpobayesave(r=rmat, random.subset = TRUE,
+                                                          n.test= 19+60,
+                                                          delta=rep(1,ncol(rmat)),
+                                                          step=1/252,
+                                                          normalized=TRUE, nlambda=30)
+```
+
+
+#####################
+# See LPO_BO_TestEvaluation.R
+# Evaluate out-of-sample performance of Bayes Opt (BO) when tuning LPO with Sample, Bayes-Stein, Bayes Asset Pricing and Bayes Averaging estimate.
+
+# LPO with Sample estimate - tuned with Bayes opt
+```{r}
+testResults.lposamplebayesopt = bayesopt.eval.l1fast(r=rmat, random.start = TRUE, 
+                                                     n.train = 251, n.test=60,
+                                                     delta=rep(1,ncol(rmat)), step=1/252,
+                                                     normalized = TRUE)
+```
+
+
+# LPO with Bayes Stein estimate - tuned with Bayes opt
+```{r}
+testResults.lpobsbayesopt = bayesopt.eval.l1fastbayesstein(r=rmat, random.start = TRUE,
+                                                           n.train = 251, n.test=60,
+                                                           delta=rep(1,ncol(rmat)), step=1/252,
+                                                           shrinkage = TRUE, normalized = TRUE)
+
+```
+
+
+# LPO with Bayes estimate based on belief in asset pricing model (FF3) - tuned with Bayes opt
+```{r}
+testResults.lpoff3bayesopt = bayesopt.eval.l1fastbayesassetp(r=rmat, f=ff3mat,random.start = TRUE,
+                                                             sigma_alpha=0.01,
+                                                             nu=500,n.train=251,
+                                                             n.test=60,
+                                                             delta=rep(1,ncol(rmat)),
+                                                             step=1/252,normalized=TRUE)
+
+```
+
+
+# LPO with Bayes Averaging estimate - tuned with Bayes opt
+```{r}
+testResults.lpoavebayesopt = bayesopt.eval.l1fastbayesave(r=rmatave,random.subset = TRUE,
+                                                          random.start= TRUE,
+                                                          n.test= 19+60,
+                                                          delta=rep(1,ncol(rmat)),
+                                                          step=1/252,
+                                                          normalized=TRUE, lambda=NULL)
+```
+
+
+#####################
+# Evaluate out of sample performance of cross-validation (CV) when tuning LPO with Sample, Bayes-Stein, Bayes Asset Pricing and Bayes Averaging estimate.
+
+# LPO with Sample estimate - tuned with CV
+```{r}
+testResults.lpo = negSR.eval.l1fast(rmat,n.train=251,n.test=60,delta=rep(1,ncol(rmat)),step=1/252, normalized = TRUE)
+```
+
+
+# LPO with Bayes-Stein estimate - tuned with CV
+```{r}
+testResults.LPObayesstein = negSR.eval.l1fastbayesstein(rmat,n.train=251, n.test=60,
+                                                        delta=rep(1,ncol(rmat)),step=1/252,
+                                                        shrinkage = TRUE, normalized=TRUE)
+
+```
+
+
+# LPO with  Bayes estimate based on belief in asset pricing model (FF3) - tuned with CV
+```{r}
+testResults.LPObayesassetpricing.ff3 =negSR.eval.l1fastbayesassetpricing(rmat,ff3mat,
+                                                                         sigma_alpha=0.01,
+                                                                         nu=500,n.train=251,
+                                                                         n.test=60,
+                                                                         delta=rep(1,ncol(rmat)),
+                                                                         step=1/252,normalized=TRUE )
+```
+
+
+# LPO with  Bayes Averaging estimate - tuned with CV
+```{r}
+testResults.LPObayesaveraging = negSR.eval.l1fastbayesaveraging(rmatave, random.subset = TRUE,
+                                                                n.test= 19+60,
+                                                                delta=rep(1,ncol(rmat)),
+                                                                step=1/252,
+                                                                normalized=TRUE, lambda=NULL)
+```
+

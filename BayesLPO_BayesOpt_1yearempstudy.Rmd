@@ -1,0 +1,205 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+## This notebook contains codes for running 1-year empirical studies of Bayesian Estimation and Optimization.
+
+## Bayes Opt being considered here use EIVar as acquisition function and with time series adjustment. (i.e. AdjBO-EIVar proposed in paper)
+## For other variations of BO, need to modify 'LPO_BO_NoisyOptimizer.R' and 'LPO_BO_TestEvaluation.R'.
+
+## Bayes Estimate being considered here includes 3 model: Bayes-Stein estimate, Bayes estimate based on belief in asset pricing model, and Bayesian averaging estimate
+```
+
+
+```{r}
+# Import dependencies
+source('LPO_SampleEstimation.R')
+source('LPO_BayesEstimation.R')
+source('LPO_CV.R')
+source('LPO_CV_TestEvaluation.R')
+source('LPO_BO_NoisyOptimizer.R')
+source('LPO_BO_TestEvaluation.R')
+source('LPO_TrueLambdaBacktest.R')
+```
+
+
+```{r}
+# Read data
+data<-read.csv("sp500data.csv",header=TRUE)
+sp500con<-read.csv("sp500con.csv",header=TRUE)
+mdata<-matrix(unlist(data),nrow=nrow(data),ncol=ncol(data)) #Adjusted Close Prices of the securities
+fulltickerlabel<-as.vector(unlist(read.csv("sp500data.csv",header=FALSE)[1,])[-1])
+compind<-complete.cases(t(data));compind[1]=FALSE
+comptickerlabel<-fulltickerlabel[compind[-1]]
+
+# For Bayes Averaging
+# data = data[-(1:231),]
+# mdata<-matrix(unlist(data),nrow=nrow(data),ncol=ncol(data)) #Adjusted Close Prices of the securities
+```
+
+
+```{r}
+S<-mdata[,compind]
+p0=ncol(S);n0=nrow(S)
+#Return matrix
+R<-matrix(0,nrow=n0-1,ncol=p0)
+for(i in 2:n0){for(j in 1:p0){R[i-1,j]=(S[i,j]-S[i-1,j])/S[i-1,j]}}
+```
+
+
+```{r}
+# Read Fama-French 3 factor model data 
+df_ff3 = read.csv("FF3-0317.csv", stringsAsFactors=FALSE)
+df_ff3$Date = as.Date(df_ff3$Date, format = "%m/%d/%Y")
+df_ff3$Mkt.RF = df_ff3$Mkt.RF / 100
+df_ff3$SMB = df_ff3$SMB / 100
+df_ff3$HML = df_ff3$HML / 100
+```
+
+
+```{r}
+# Pick subset of data to evaluate performance
+df_ff3_eval = df_ff3[df_ff3['Date']>='2013-01-01' & df_ff3['Date']<='2014-12-31' ,]
+df_ff3_eval = df_ff3_eval[-1,]
+ff3mat = as.matrix(df_ff3_eval[,-c(1,5)])
+nrow(ff3mat)
+ncol(ff3mat)
+```
+
+
+```{r}
+#sink()
+```
+
+
+
+#####################
+# See LPO_TrueLambdaBacktest.R
+# Find true optimal lambda by incorporating future asset prices.
+# For LPO with Sample, Bayes-Stein, Bayes Asset Pricing and Bayes Averaging estimate.
+
+# True lambda LPO Bayes-Stein
+```{r}
+truelambda.l1fastbs = TrueOptimalLambda.lpobs(r=R, n.train=251,n.test=252,
+                                              delta=rep(1,ncol(R)), step=1/252,
+                                              shrinkage= TRUE, normalized = TRUE, nlambda=30)
+```
+
+# True lambda LPO Bayes asset pricing
+```{r}
+truelambda.l1fastff3 = TrueOptimalLambda.lpoassetp(r=R, f=ff3mat,sigma_alpha=0.01,
+                                                   nu=500,n.train=251,
+                                                   n.test=252,
+                                                   delta=rep(1,ncol(R)),
+                                                   step=1/252,normalized=TRUE, nlambda=30)
+```
+
+# True lambda LPO Bayes averaging
+```{r}
+# Note: Change matrix of returns R first (see commented block above)
+truelambda.l1fastbayesave = TrueOptimalLambda.lpobayesave(r=R, random.subset = TRUE,
+                                                          n.test= 19+252,
+                                                          delta=rep(1,ncol(R)),
+                                                          step=1/252,
+                                                          normalized=TRUE, nlambda=30)
+```
+
+#####################
+# See LPO_BO_TestEvaluation.R
+# Evaluate out-of-sample performance of Bayes Opt (BO) when tuning LPO with Sample, Bayes-Stein, Bayes Asset Pricing and Bayes Averaging estimate.
+
+# LPO with Sample estimate - tuned with Bayes opt
+```{r}
+testResults.lposamplebayesopt = bayesopt.eval.l1fast(r=R, random.start = FALSE, 
+                                                     n.train = 251, n.test=252,
+                                                     delta=rep(1,ncol(R)), step=1/252,
+                                                     normalized = TRUE)
+```
+
+
+# LPO with Bayes Stein estimate - tuned with Bayes opt
+```{r}
+testResults.lpobsbayesopt = bayesopt.eval.l1fastbayesstein(r=R, random.start = FALSE,
+                                                           n.train = 251, n.test=252,
+                                                           delta=rep(1,ncol(R)), step=1/252,
+                                                           shrinkage = TRUE, normalized = TRUE)
+
+```
+
+
+# LPO with Bayes estimate based on belief in asset pricing model (FF3) - tuned with Bayes opt
+```{r}
+testResults.lpoff3bayesopt = bayesopt.eval.l1fastbayesassetp(r=R, f=ff3mat,
+                                                             sigma_alpha=0.01,
+                                                             nu=500,n.train=251,
+                                                             n.test=252,
+                                                             delta=rep(1,ncol(R)),
+                                                             step=1/252,normalized=TRUE)
+
+```
+
+
+# LPO with Bayes Averaging estimate - tuned with Bayes opt
+```{r}
+# Note: Change matrix of returns R first (see commented block above)
+testResults.lpoavebayesopt = bayesopt.eval.l1fastbayesave(r=R,random.subset = TRUE,
+                                                          n.test= 19+252,
+                                                          delta=rep(1,ncol(R)),
+                                                          step=1/252,
+                                                          normalized=TRUE, lambda=NULL)
+
+```
+
+
+#####################
+# Evaluate out of sample performance of cross-validation (CV) when tuning LPO with Sample, Bayes-Stein, Bayes Asset Pricing and Bayes Averaging estimate.
+
+# LPO with Sample estimate - tuned with CV
+```{r}
+testResults.lpo = negSR.eval.l1fast(R,n.train=251,n.test=252,delta=rep(1,ncol(R)),step=1/252, normalized = TRUE)
+```
+
+# LPO with Bayes-Stein estimate - tuned with CV
+```{r}
+testResults.lpobscv = negSR.eval.l1fastbayesstein(R,n.train=251, n.test=20,
+                                                        delta=rep(1,ncol(R)),step=1/252,
+                                                        shrinkage = TRUE, normalized=TRUE)
+```
+
+# LPO with  Bayes estimate based on belief in asset pricing model (FF3) - tuned with CV
+```{r}
+testResults.lpoassetpcv = negSR.eval.l1fastbayesassetpricing(R,ff3mat,
+                                                                         sigma_alpha=0.01,
+                                                                         nu=500,n.train=251,
+                                                                         n.test=20,
+                                                                         delta=rep(1,ncol(R)),
+                                                                         step=1/252,normalized=TRUE )
+```
+
+
+# LPO with  Bayes Averaging estimate - tuned with CV
+```{r}
+# Note: Change matrix of returns R first (see commented block above)
+testResults.lpoavecv = negSR.eval.l1fastbayesaveraging(R, random.subset = TRUE,
+                                                                n.test= 19+252,
+                                                                delta=rep(1,ncol(R)),
+                                                                step=1/252,
+                                                                normalized=TRUE, lambda=NULL)
+```
+
+
+#####################
+# Other strategies for benchmark
+# Equally-weighted
+```{r}
+EWtestresults = negSR.eval.EW(R, n.train = 251, n.test = 252)
+```
+
+# Plug in
+```{r}
+pluginresults = eval.plugin(R, n.train = 251, n.test = 252, step=1/252)
+```
+

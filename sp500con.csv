@@ -1,0 +1,594 @@
+Symbol,Name,Sector,SEC Filings
+MMM,3M Co,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MMM
+ABT,Abbott Laboratories,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ABT
+ABBV,AbbVie,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ABBV
+ACN,Accenture Plc,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ACN
+ACE,ACE Limited,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ACE
+ACT,Actavis Plc,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ACT
+ADBE,Adobe Systems,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ADBE
+ADT,ADT Corp (The),Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ADT
+AES,AES Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AES
+AET,Aetna,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AET
+AMG,Affiliated Managers Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMG
+AFL,AFLAC,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AFL
+A,Agilent Technologies,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=A
+GAS,AGL Resources,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GAS
+APD,Air Products & Chemicals,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APD
+ARG,Airgas,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ARG
+AKAM,Akamai Technologies,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AKAM
+AA,Alcoa,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AA
+ALXN,Alexion Pharmaceuticals,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ALXN
+ALLE,Allegion Plc,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ALLE
+AGN,Allergan,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AGN
+ADS,Alliance Data Systems,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ADS
+ALL,Allstate Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ALL
+ALTR,Altera Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ALTR
+MO,Altria Group,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MO
+AMZN,Amazon.com,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN
+AEE,Ameren Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AEE
+AEP,American Electric Power,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AEP
+AXP,American Express,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AXP
+AIG,American International Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AIG
+AMT,American Tower,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMT
+AMP,Ameriprise Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMP
+ABC,AmerisourceBergen Corp,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ABC
+AME,AMETEK,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AME
+AMGN,Amgen,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMGN
+APH,Amphenol Corp A,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APH
+APC,Anadarko Petroleum,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APC
+ADI,Analog Devices,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ADI
+AON,Aon Plc,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AON
+APA,Apache Corp,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=APA
+AIV,Apartment Investment & Mgmt,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AIV
+AAPL,Apple,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AAPL
+AMAT,Applied Materials,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMAT
+ADM,Archer-Daniels-Midland,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ADM
+AIZ,Assurant,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AIZ
+T,AT&T,Telecommunication Services,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=T
+ADSK,Autodesk,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ADSK
+ADP,Automatic Data Processing,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ADP
+AN,AutoNation,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AN
+AZO,AutoZone,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AZO
+AVGO,Avago Technologies,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AVGO
+AVB,AvalonBay Communities,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AVB
+AVY,Avery Dennison Corp,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AVY
+AVP,Avon Products,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AVP
+BHI,Baker Hughes,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BHI
+BLL,Ball Corp,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BLL
+BAC,Bank of America,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BAC
+BK,Bank of New York Mellon,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BK
+BCR,Bard (C.R.),Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BCR
+BAX,Baxter International,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BAX
+BBT,BB&T Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BBT
+BDX,Becton Dickinson,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BDX
+BBBY,Bed Bath & Beyond,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BBBY
+BMS,Bemis Co,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BMS
+BRK-B,Berkshire Hathaway,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BRK-B
+BBY,Best Buy,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BBY
+BIIB,Biogen Idec,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BIIB
+BLK,BlackRock,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BLK
+BA,Boeing Co,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BA
+BWA,Borg Warner,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BWA
+BXP,Boston Properties,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BXP
+BSX,Boston Scientific,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BSX
+BMY,Bristol-Myers Squibb,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BMY
+BRCM,Broadcom Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BRCM
+BF-B,Brown-Forman,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BF-B
+CHRW,C.H. Robinson Worldwide,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CHRW
+CA,CA,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CA
+CVC,Cablevision Systems,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CVC
+COG,Cabot Oil & Gas,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COG
+CAM,Cameron International,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CAM
+CPB,Campbell Soup,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CPB
+COF,Capital One Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COF
+CAH,Cardinal Health,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CAH
+CFN,CareFusion Corp,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CFN
+KMX,CarMax,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KMX
+CCL,Carnival Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CCL
+CAT,Caterpillar,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CAT
+CBG,CBRE Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CBG
+CBS,CBS Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CBS
+CELG,Celgene Corp,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CELG
+CNP,CenterPoint Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CNP
+CTL,CenturyLink,Telecommunication Services,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CTL
+CERN,Cerner Corp,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CERN
+CF,CF Industries Holdings,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CF
+CHK,Chesapeake Energy,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CHK
+CVX,Chevron Corp,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CVX
+CMG,Chipotle Mexican Grill,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMG
+CB,Chubb Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CB
+CI,Cigna Corp,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CI
+XEC,Cimarex Energy,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XEC
+CINF,Cincinnati Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CINF
+CTAS,Cintas Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CTAS
+CSCO,Cisco Systems,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CSCO
+C,Citigroup,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=C
+CTXS,Citrix Systems,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CTXS
+CLX,Clorox Co,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CLX
+CME,CME Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CME
+CMS,CMS Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMS
+COH,Coach,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COH
+KO,Coca-Cola Co,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KO
+CCE,Coca-Cola Enterprises,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CCE
+CTSH,Cognizant Technology Solutions,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CTSH
+CL,Colgate-Palmolive,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CL
+CMCSA,Comcast Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMCSA
+CMA,Comerica,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMA
+CSC,Computer Sciences,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CSC
+CAG,ConAgra Foods,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CAG
+COP,ConocoPhillips,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COP
+CNX,CONSOL Energy,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CNX
+ED,Consolidated Edison,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ED
+STZ,Constellation Brands,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=STZ
+GLW,Corning,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GLW
+COST,Costco Wholesale,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COST
+COV,Covidien Plc,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COV
+CCI,Crown Castle International,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CCI
+CSX,CSX Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CSX
+CMI,Cummins,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CMI
+CVS,CVS Health Corp,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CVS
+DHI,D.R.Horton,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DHI
+DHR,Danaher Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DHR
+DRI,Darden Restaurants,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DRI
+DVA,DaVita HealthCare Partner,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DVA
+DE,Deere & Co,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DE
+DLPH,Delphi Automotive Plc,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DLPH
+DAL,Delta Air Lines,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DAL
+DNR,Denbury Resources,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DNR
+XRAY,DENTSPLY International,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XRAY
+DVN,Devon Energy,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DVN
+DO,Diamond Offshore Drilling,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DO
+DTV,DIRECTV,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DTV
+DFS,Discover Financial Services,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DFS
+DISCA,Discovery Communications,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DISCA
+DG,Dollar General,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DG
+DLTR,Dollar Tree,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DLTR
+D,Dominion Resources,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=D
+DOV,Dover Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DOV
+DOW,Dow Chemical,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DOW
+DPS,Dr. Pepper Snapple Group,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DPS
+DTE,DTE Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DTE
+DD,Du Pont (E.I.),Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DD
+DUK,Duke Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DUK
+DNB,Dun & Bradstreet,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DNB
+ETFC,E Trade Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ETFC
+EMN,Eastman Chemical,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EMN
+ETN,Eaton Corp Plc,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ETN
+EBAY,eBay,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EBAY
+ECL,Ecolab,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ECL
+EIX,Edison International,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EIX
+EW,Edwards Lifesciences,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EW
+EA,Electronic Arts,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EA
+EMC,EMC Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EMC
+EMR,Emerson Electric,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EMR
+ESV,ENSCO Plc,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ESV
+ETR,Entergy Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ETR
+EOG,EOG Resources,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EOG
+EQT,EQT Corp,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EQT
+EFX,Equifax,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EFX
+EQR,Equity Residential,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EQR
+ESS,Essex Property Trust,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ESS
+EL,Estee Lauder Co,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EL
+EXC,Exelon Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EXC
+EXPE,Expedia,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EXPE
+EXPD,"Expeditors International,Wash",Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EXPD
+ESRX,Express Scripts Holding,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ESRX
+XOM,Exxon Mobil,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XOM
+FFIV,F5 Networks,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FFIV
+FB,Facebook Cl,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FB
+FDO,Family Dollar Stores,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FDO
+FAST,Fastenal Co,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FAST
+FDX,FedEx Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FDX
+FIS,Fidelity National Information Services,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FIS
+FITB,Fifth Third Bancorp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FITB
+FSLR,First Solar,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FSLR
+FE,FirstEnergy Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FE
+FISV,Fiserv,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FISV
+FLIR,FLIR Systems,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FLIR
+FLS,Flowserve Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FLS
+FLR,Fluor Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FLR
+FMC,FMC Corp,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FMC
+FTI,FMC Technologies,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FTI
+F,Ford Motor,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=F
+FOSL,Fossil Group,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FOSL
+BEN,Franklin Resources,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BEN
+FCX,Freeport-McMoRan,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FCX
+FTR,Frontier Communications,Telecommunication Services,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FTR
+GME,GameStop Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GME
+GCI,Gannett Co,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GCI
+GPS,Gap,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GPS
+GRMN,Garmin Ltd,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GRMN
+GM,General Motors,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GM
+GD,Genl Dynamics,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GD
+GE,Genl Electric,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GE
+GGP,Genl Growth Properties,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GGP
+GIS,Genl Mills,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GIS
+GPC,Genuine Parts,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GPC
+GNW,Genworth Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GNW
+GILD,Gilead Sciences,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GILD
+GS,Goldman Sachs Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GS
+GT,Goodyear Tire & Rub,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GT
+GOOG,Google'C',Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOG
+GWW,Grainger (W.W.),Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GWW
+HAL,Halliburton Co,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HAL
+HOG,Harley-Davidson,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HOG
+HAR,Harman International,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HAR
+HRS,Harris Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HRS
+HIG,Hartford Finl Services Gp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HIG
+HAS,Hasbro,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HAS
+HCP,HCP,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HCP
+HCN,Health Care REIT,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HCN
+HP,Helmerich & Payne,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HP
+HSY,Hershey Co,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HSY
+HES,Hess Corp,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HES
+HPQ,Hewlett-Packard,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HPQ
+HD,Home Depot,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HD
+HON,Honeywell International,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HON
+HRL,Hormel Foods,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HRL
+HSP,Hospira,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HSP
+HST,Host Hotels & Resorts,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HST
+HCBK,Hudson City Bancorp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HCBK
+HUM,Humana,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HUM
+HBAN,Huntington Bancshares,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HBAN
+ITW,Illinois Tool Works,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ITW
+IR,Ingersoll-Rand Plc,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IR
+TEG,Integrys Energy Group,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TEG
+INTC,Intel Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=INTC
+ICE,Intercontinental Exchange,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ICE
+IBM,International Bus. Machines,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IBM
+IFF,International Flavors/Fragr,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IFF
+IP,International Paper,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IP
+IPG,Interpublic GroupCompanies,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IPG
+INTU,Intuit,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=INTU
+ISRG,Intuitive Surgical,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ISRG
+IVZ,INVESCO Ltd,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IVZ
+IRM,Iron Mountain,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IRM
+JBL,Jabil Circuit,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JBL
+JEC,Jacobs Engineering Group,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JEC
+JNJ,Johnson & Johnson,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JNJ
+JCI,Johnson Controls,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JCI
+JPM,JPMorgan Chase & Co,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JPM
+JNPR,Juniper Networks,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JNPR
+KSU,Kansas City Southern,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KSU
+K,Kellogg Co,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=K
+GMCR,Keurig Green Mountain,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GMCR
+KEY,KeyCorp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KEY
+KMB,Kimberly-Clark,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KMB
+KIM,Kimco Realty,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KIM
+KMI,Kinder Morgan,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KMI
+KLAC,KLA-Tencor Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KLAC
+KSS,Kohl's Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KSS
+KRFT,Kraft Foods Group,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KRFT
+KR,Kroger Co,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KR
+LB,L Brands,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LB
+LLL,L-3 Communications Holdings,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LLL
+LH,Laboratory Corp American Holdings,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LH
+LRCX,Lam Research,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LRCX
+LM,Legg Mason,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LM
+LEG,Leggett & Platt,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LEG
+LEN,Lennar Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LEN
+LUK,Leucadia National,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LUK
+LLY,Lilly (Eli),Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LLY
+LNC,Lincoln National,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LNC
+LLTC,Linear Technology Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LLTC
+LMT,Lockheed Martin,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LMT
+L,Loews Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=L
+LO,Lorillard,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LO
+LOW,Lowe'sCompanies,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LOW
+LYB,LyondellBasell Industries,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LYB
+MTB,M&T Bank,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MTB
+MAC,Macerich Co,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MAC
+M,Macy's,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=M
+MNK,Mallinckrodt plc,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MNK
+MRO,Marathon Oil,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MRO
+MPC,Marathon Petroleum,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MPC
+MAR,Marriott International,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MAR
+MMC,Marsh & McLennan,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MMC
+MLM,Martin Marietta Materials,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MLM
+MAS,Masco Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MAS
+MA,MasterCard,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MA
+MAT,Mattel,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MAT
+MKC,McCormick & Co,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MKC
+MCD,McDonald's Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MCD
+MHFI,McGraw Hill Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MHFI
+MCK,McKesson Corp,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MCK
+MJN,Mead Johnson Nutrition,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MJN
+MWV,MeadWestvaco Corp,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MWV
+MDT,Medtronic,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MDT
+MRK,Merck & Co,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MRK
+MET,MetLife,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MET
+KORS,Michael Kors Holdings,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KORS
+MCHP,Microchip Technology,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MCHP
+MU,Micron Technology,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MU
+MSFT,Microsoft Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT
+MHK,Mohawk Industries,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MHK
+TAP,Molson Coors Brewing,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TAP
+MDLZ,Mondelez International,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MDLZ
+MON,Monsanto Co,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MON
+MNST,Monster Beverage,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MNST
+MCO,Moody's Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MCO
+MS,Morgan Stanley,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MS
+MOS,Mosaic Co,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MOS
+MSI,Motorola Solutions,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSI
+MUR,Murphy Oil,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MUR
+MYL,Mylan,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MYL
+NBR,Nabors Industries,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBR
+NDAQ,Nasdaq OMX Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NDAQ
+NOV,Natl Oilwell Varco,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NOV
+NAVI,Navient Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NAVI
+NTAP,NetApp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NTAP
+NFLX,NetFlix,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NFLX
+NWL,Newell Rubbermaid,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NWL
+NFX,Newfield Exploration,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NFX
+NEM,Newmont Mining,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NEM
+NWSA,News Corporation,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NWSA
+NEE,NextEra Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NEE
+NLSN,Nielsen NV,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NLSN
+NKE,NIKE,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NKE
+NI,NiSource,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NI
+NE,Noble Corp,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NE
+NBL,Noble Energy,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NBL
+JWN,Nordstrom,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JWN
+NSC,Norfolk Southern,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NSC
+NU,Northeast Utilities,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NU
+NTRS,Northern Trust,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NTRS
+NOC,Northrop Grumman,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NOC
+NRG,NRG Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NRG
+NUE,Nucor Corp,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NUE
+NVDA,NVIDIA Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA
+ORLY,O'Reilly Automotive,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORLY
+OXY,Occidental Petroleum,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=OXY
+OMC,Omnicom Group,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=OMC
+OKE,ONEOK,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=OKE
+ORCL,Oracle Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL
+OI,Owens-Illinois,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=OI
+PCAR,PACCAR,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PCAR
+PLL,Pall Corp,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PLL
+PH,Parker-Hannifin,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PH
+PDCO,PattersonCompanies,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PDCO
+PAYX,Paychex,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PAYX
+PNR,Pentair plc,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PNR
+PBCT,People's United Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PBCT
+POM,Pepco Holdings,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=POM
+PEP,PepsiCo,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PEP
+PKI,PerkinElmer,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PKI
+PRGO,Perrigo,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PRGO
+PETM,PETsMART,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PETM
+PFE,Pfizer,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PFE
+PCG,PG&E Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PCG
+PM,Philip Morris International,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PM
+PSX,Phillips 66,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PSX
+PNW,Pinnacle West Capital,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PNW
+PXD,Pioneer Natural Resources,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PXD
+PBI,Pitney Bowes,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PBI
+PCL,Plum Creek Timber,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PCL
+PNC,PNC Financial Services,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PNC
+PPG,PPG Indus,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PPG
+PPL,PPL Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PPL
+PX,Praxair,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PX
+PCP,Precision Castparts,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PCP
+PCLN,Priceline Group (The),Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PCLN
+PFG,Principal Financial Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PFG
+PG,Procter & Gamble,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PG
+PGR,"Progressive Corp,Ohio",Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PGR
+PLD,Prologis,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PLD
+PRU,Prudential Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PRU
+PSA,Public Storage,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PSA
+PEG,Public Svc Enterprises,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PEG
+PHM,PulteGroup,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PHM
+PVH,PVH Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PVH
+QEP,QEP Resources,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QEP
+QCOM,QUALCOMM,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QCOM
+PWR,Quanta Services,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PWR
+DGX,Quest Diagnostics,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DGX
+RL,Ralph Lauren Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RL
+RRC,Range Resources,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RRC
+RTN,Raytheon Co,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RTN
+RHT,Red Hat,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RHT
+REGN,Regeneron Pharmaceuticals,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=REGN
+RF,Regions Financial,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RF
+RSG,Republic Services,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RSG
+RAI,Reynolds American,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RAI
+RHI,Robert Half International,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RHI
+ROK,Rockwell Automation,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ROK
+COL,Rockwell Collins,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COL
+ROP,Roper Indus,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ROP
+ROST,Ross Stores,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ROST
+R,Ryder System,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=R
+SWY,Safeway,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SWY
+CRM,salesforce.com inc,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRM
+SNDK,SanDisk Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SNDK
+SCG,SCANA Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SCG
+SLB,Schlumberger Ltd,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SLB
+SCHW,Schwab(Charles)Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SCHW
+SNI,Scripps Networks Interact,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SNI
+STX,Seagate Technology Plc,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=STX
+SEE,Sealed Air,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SEE
+SRE,Sempra Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SRE
+SHW,Sherwin-Williams,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SHW
+SIAL,Sigma-Aldrich,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SIAL
+SPG,Simon Property Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SPG
+SJM,Smucker (J.M.),Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SJM
+SNA,Snap-On,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SNA
+SO,Southern Co,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SO
+LUV,Southwest Airlines,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LUV
+SWN,Southwestern Energy,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SWN
+SE,Spectra Energy,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SE
+STJ,St. Jude Medical,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=STJ
+SWK,Stanley Black & Decker,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SWK
+SPLS,Staples,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SPLS
+SBUX,Starbucks Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SBUX
+HOT,Starwood Hotels&Res World,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=HOT
+STT,State Street Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=STT
+SRCL,Stericycle,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SRCL
+SYK,Stryker Corp,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SYK
+STI,SunTrust Banks,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=STI
+SYMC,Symantec Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SYMC
+SYY,Sysco Corp,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SYY
+TROW,T.Rowe Price Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TROW
+TGT,Target Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TGT
+TEL,TE Connectivity,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TEL
+TE,TECO Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TE
+THC,Tenet Healthcare,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=THC
+TDC,Teradata Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TDC
+TSO,Tesoro Corp,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSO
+TXN,Texas Instruments,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TXN
+TXT,Textron,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TXT
+TMO,Thermo Fisher Scientific,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TMO
+TIF,Tiffany & Co,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TIF
+TWX,Time Warner,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TWX
+TWC,Time Warner Cable,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TWC
+TJX,TJX Companies,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TJX
+TMK,Torchmark Corp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TMK
+TSS,Total System Services,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSS
+TSCO,Tractor Supply,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSCO
+RIG,Transocean Ltd,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RIG
+TRV,TravelersCompanies,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TRV
+TRIP,TripAdvisor,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TRIP
+FOXA,Twenty-First Century Fox,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=FOXA
+TSN,Tyson Foods,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSN
+USB,U.S. Bancorp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=USB
+UA,Under Armour,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UA
+UNP,Union Pacific,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UNP
+UPS,United Parcel,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UPS
+URI,United Rentals,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=URI
+UTX,United Technologies,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UTX
+UNH,UnitedHealth Group,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UNH
+UHS,Univl Health Services,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UHS
+UNM,Unum Group,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UNM
+URBN,Urban Outfitters,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=URBN
+VLO,Valero Energy,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VLO
+VAR,Varian Medical Systems,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VAR
+VTR,Ventas,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VTR
+VRSN,VeriSign,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VRSN
+VZ,Verizon Communications,Telecommunication Services,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VZ
+VRTX,Vertex Pharmaceuticals,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VRTX
+VFC,VF Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VFC
+VIAB,Viacom,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VIAB
+V,Visa,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=V
+VNO,Vornado Realty Trust,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VNO
+VMC,Vulcan Materials,Materials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=VMC
+WMT,Wal-Mart Stores,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WMT
+WAG,Walgreen Co,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WAG
+DIS,Walt Disney Co,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DIS
+WM,Waste Management,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WM
+WAT,Waters Corp,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WAT
+WLP,WellPoint,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WLP
+WFC,Wells Fargo,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WFC
+WDC,Western Digital,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WDC
+WU,Western Union,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WU
+WY,Weyerhaeuser Co,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WY
+WHR,Whirlpool Corp,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WHR
+WFM,Whole Foods Market,Consumer Staples,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WFM
+WMB,WilliamsCompanies,Energy,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WMB
+WIN,Windstream Holdings,Telecommunication Services,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WIN
+WEC,Wisconsin Energy Corp,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WEC
+WYN,Wyndham Worldwide,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WYN
+WYNN,Wynn Resorts,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WYNN
+XEL,Xcel Energy,Utilities,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XEL
+XRX,Xerox Corp,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XRX
+XLNX,Xilinx,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XLNX
+XL,XL Group Plc,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XL
+XYL,Xylem,Industrials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XYL
+YHOO,Yahoo,Information Technology,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=YHOO
+YUM,Yum Brands,Consumer Discretionary,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=YUM
+ZMH,Zimmer Holdings,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ZMH
+ZION,Zions Bancorp,Financials,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ZION
+ZTS,Zoetis,Health Care,http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ZTS
+O,Realty Income Corporation,,
+AAL,American Airlines Group,,
+EQIX,Equinix,,
+SLG,SL Green Realty,,
+HBI,Hanesbrands,,
+HSIC,Henry Schein,,
+SWKS,Skyworks Solutions Inc.,,
+HCA,HCA Holdings,,
+ENDP,Endo International,,
+RCL,Royal Caribbean Cruises Ltd,,
+LVLT,Level 3 Communications,,
+DISCK,Discovery Communications,,
+GOOGL,Google Inc.,,
+WPX,WPX Energy Inc.,,
+CBE,Cooper Industries,,
+ANR,"Alpha Natural Resources, Inc.",,
+JOYG,Joy Global Inc.,,
+TYC,Tyco International Ltd.,,
+SBL,Symbol Technologies,,
+AYE,Allegheny Energy,,
+ABK,Ambac Financial,,
+BTU,Peabody Energy,,
+GHC,Graham Holdings,,
+RDC,Rowan Companies Plc,,
+X,United States Steel Corporation,,
+FRX,Forest Laboratories,,
+IGT,International Game Technology,,
+LSI,LSI Corporation,,
+BEAM,Beam Inc.,,
+SLM,SLM Corporation,,
+CLF,Cliffs Natural Resources,,
+LIFE,Life Technologies,,
+ANF,Abercrombie & Fitch,,
+JDSU,JDS Uniphase,,
+TER,Teradyne,,
+MOLX,Molex Inc.,,
+JCP,J.C. Penney,,
+NYX,NYSE Euronext,,
+DELL,"Dell, Inc.",,
+AMD,Advanced Micro Devices,,
+SAIC,SAIC,,
+BMC,BMC Software,,
+S,Sprint Nextel Corp.,,
+APOL,Apollo Group Inc.,,
+FHN,First Horizon,,
+HNZ,H. J. Heinz Company,,
+DF,Dean Foods,,
+CVH,Coventry Health Care,,
+PCS,MetroPCS,,
+BIG,Big Lots Inc.,,
+FII,Federated Investors,,
+TIE,Titanium Metals,,
+RRD,R.R. Donnelley,,
+SUN,Sunoco Inc.,,
+LXK,Lexmark Int'l Inc,,
+DV,"DeVry, Inc.",,
+SHLD,Sears Holding Corporation,,
+GR,Goodrich Corporation,,
+PGN,Progress Energy Inc,,
+SLE,Sara Lee Corp.,,
+NVLS,Novellus Systems,,
+MMI,Motorola Mobility,,
+EP,El Paso Corp.,,
+SVU,Supervalu Inc.,,
+MHS,Medco Health Solutions Inc.,,
+CEG,Constellation Energy Group,,
+CPWR,Compuware,,
+TLAB,Tellabs Inc.,,
+AKS,AK Steel Holding Corp.,,
+MWW,Monster Worldwide Inc.,,
+WFR,MEMC Electronic Materials Inc.,,
+JNS,Janus Capital Group,,
+ITT,ITT Corp.,,
+CEPH,Cephalon Inc.,,
+NSM,National Semiconductor Corp.,,
+MI,Marshall & Iisley Corp.,,
+RSH,RadioShack Corp.,,
+MEE,Massey Energy Company,,
+NOVL,"Novell, Inc.",,
+GENZ,Genzyme Corp.,,
+Q,Qwest Communications,,
+MFE,McAfee Inc.,,
+KG,King Pharmaceuticals Inc.,,
+EK,Eastman Kodak Co.,,
+ODP,Office Depot Inc.,,
+NYT,The New York Times Co.,,
+SII,Smith International Inc.,,
+MIL,Millipore Inc.,,
+STR,Questar Corp.,,
+XTO,XTO Energy Inc.,,
+BJS,BJ Services Company,,
+SGP,Schering-Plough Corp.,,
+TRB,Tribune Co.,,
+AV,Avaya Inc.,,
+BS,Bethlehem Steel,,
+GRA,W.R. Grace,,
+CCK,Crown Holdings,,
